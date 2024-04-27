@@ -9,9 +9,15 @@ for(let i = 0; i < 256; i++) {
   // Event listener for each square
   square.addEventListener("mouseover", event => {
   event.target.style.backgroundColor = "black";
-  console.log("mouseover");
 });
 }
+
+// Event listener for grid size button
+const button = document.querySelector("#button");
+button.addEventListener("click", event =>{
+  let size = prompt("Select a grid size from 0 to 100: ");
+})
+
 
 
 
